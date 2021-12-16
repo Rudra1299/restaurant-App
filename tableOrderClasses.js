@@ -9,9 +9,15 @@ export class Table {
 }
 
 export class Order {
-  constructor(name, quantity) {
+  constructor(name, price) {
     this.name = name;
-    this.quantity = quantity;
+    this.price = price;
+    this.quantity = 1;
+  }
+
+  getPrice() {
+    let priceAmount = this.price * this.quantity;
+    return priceAmount;
   }
 }
 
