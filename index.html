@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./app.css" type="text/css" rel="stylesheet" />
+    <title>ZemosoRestaurant</title>
+  </head>
+  <body>
+    <div class="outer-container">
+    <div class="container">
+      <h2 class="table-heading">Tables</h2>
+      <div class="containers">
+        <div class="searchWrappper">
+          <div class="tableSearchBar">
+            <input
+              type="text"
+              name="tableSearchBar"
+              id="tableSearchBar"
+              placeholder="Seach table"
+            />
+          </div>
+        </div>
+        <ul id="tableList"></ul>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title"></div>
+            <button data-close-button class="close-button">&times</button>
+          </div>
+          <div class="modal-body">
+            <table class="order-table"></table>
+            </table>
+          </div>
+          <div class="modal-foot">
+            <button class="close-session">close Session(Generate Bill)</button>
+          </div>
+        </div>
+      </div>
+      <div id="overlay"></div>
+    </div>
+    <div class="container">
+      <h2>Menu</h2>
+      <div id="searchWrapper">
+        <input
+          type="text"
+          name="searchBar"
+          id="searchBar"
+          placeholder="Search menu... by course, by food "
+        />
+      </div>
+      <ul id="dishList" class="draggable-container">
+      </ul>
+    </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

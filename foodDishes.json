@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Crusty Garlic foccia with Melted Chees",
+    "price": 100
+  },
+
+  {
+    "id": 2,
+    "name": "French fries",
+    "price": 105
+  },
+
+  {
+    "id": 3,
+    "name": "Home Country Fries with Herbs and Chilli Flakes",
+    "price": 105
+  },
+
+  {
+    "id": 4,
+    "name": "French Fries with Cheese and Jalepenos",
+    "price": 135
+  },
+
+  {
+    "id": 5,
+    "name": "Smoked Chicken Quesadilla",
+    "price": 180
+  },
+
+  {
+    "id": 6,
+    "name": "Honey Glazed Onion Rings",
+    "price": 180
+  }
+]

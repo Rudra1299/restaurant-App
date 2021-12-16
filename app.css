@@ -1,0 +1,132 @@
+.container {
+  padding: 40px;
+  max-width: 1000px;
+  text-align: center;
+  padding-left: 10px;
+  width: 400px;
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+#searchBar {
+  width: 80%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #e6e6ec;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  box-shadow: 1px 1px rgb(207, 203, 203);
+  position: relative;
+  left: 30px;
+}
+.dish {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  box-shadow: 1px 1px rgb(207, 203, 203);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.price {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(99, 96, 96);
+}
+
+.containers {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#tableSearchBar {
+  width: 80%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #e6e6ec;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  box-shadow: 1px 1px rgb(207, 203, 203);
+  position: relative;
+  left: 30px;
+}
+
+.table-card {
+  width: 80%;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  box-shadow: 1px 1px rgb(207, 203, 203);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 3px;
+  z-index: 10;
+  background-color: white;
+  width: 600px;
+  max-width: 80%;
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 251, 251);
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: rgb(255, 251, 251);
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-header {
+  background: rgb(69, 12, 202);
+}
+
+.outer-container {
+  display: flex;
+}
